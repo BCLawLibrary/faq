@@ -1,0 +1,23 @@
+#faq table, #faq td {border: 0px solid #eee; }
+#faq thead {display:none;}
+#faq table td {display:block; padding:4px 0px}
+#faq td:nth-child(1) {font-weight:bold;}
+.details-control {
+    background: url('http://www.bc.edu/content/dam/files/schools/law/library/faq/images/details_open.png') no-repeat center center;
+}
+td.question {cursor: pointer;}
+.answer-tab {width: 20px; height:12px;display:inline-block;}
+.open {background: url('http://www.bc.edu/content/dam/files/schools/law/library/faq/images/details_close.png') no-repeat center center;}
+#faq table tr.group td {background-color: #CBBD9B; padding:6px;}
+#faq table tr.even td,  #faq table tr.odd td {background-color:transparent;}
+#faq ul {padding-left:0px;}
+
+.btn.btn-default {margin:2px; border-bottom:2px solid #fff;}
+.btn.btn-default:hover {border-bottom:2px solid #fff;}
+#top-list .btn.btn-default {border-bottom:8px solid #fff;}
+#top-list .btn.btn-default:hover {border-bottom:2px solid #fff;}
+#top-list .btn.selected {margin-bottom:6px;}
+.btn.selected, #top-list .btn.btn-default.selected {background: #777;border-bottom: 4px solid #8a100b;}
+.btn.selected:hover {border-bottom: 4px solid #8a100b;}
+.buttons {list-style:none;}
+.buttons li {display:inline;}

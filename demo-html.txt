@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="/content/dam/bc1/schools/law/js/faq/faq.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.js"></script>
+<script src="/content/dam/bc1/schools/law/js/faq/tabletop.js"></script>
+<script src="/content/dam/bc1/schools/law/js/faq/faq.js"></script>
+
+<div id="faq">
+<ul id="top-list"class="buttons"></ul>
+
+
+
+			<ul class="buttons secondary">
+				<li><span class="btn btn-default btn-maroon all-answers">Show all answers</span></li>
+				<li><span class="btn btn-default btn-maroon no-answers">Hide all answers</span></li>
+			</ul>
+
+            <div class="row-fluid">
+                <div class="span12">
+                    <div id="demo"></div>
+                </div>
+            </div>
+        </div>
+</div>
