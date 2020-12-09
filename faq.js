@@ -95,6 +95,7 @@ $(document).ready(function() {
 		"pageLength": 999,
 		"ajax": { // pull data from google sheet via Sheets API V4
 			url:"https://sheets.googleapis.com/v4/spreadsheets/1YSwUAVxuTToBAIsNGboAQY1aJnhBIzoESy355X7Q3Ck/values/A:C?key=AIzaSyD8Y28YJpVhE4XlVlOoA74Ws47YdPz5nGA",
+			cache: true,
 			"dataSrc": function(json) {
 				var myData = json['values']; //spreadsheet data lives in an array with the name values
 				//rewrite data to an object with key-value pairs. This is also a chance to rename or ignore columns
