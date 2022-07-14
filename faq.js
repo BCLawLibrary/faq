@@ -139,6 +139,7 @@ $(document).ready(function() {
 			} );
 			
 			var tables = $('.dataTable').DataTable(); 
+			/*
 			if ($('ul#top-list').is(':empty') && api.columns(0).data()[0].length > 0)	{
 				var subjectList=
 					api
@@ -165,16 +166,16 @@ $(document).ready(function() {
 						.appendTo(li);
 				});
 				$('span.categorySearch').click (function() { //add function to search buttons
-				$("#top-list span").removeClass("selected");
-				$(this).addClass("selected");	
-				
-				var search = $(this).text();
-				console.log(search);
-				//tables.column(1).search("");
-				//tables.column(2).search("");
-				tables.search("");
-				tables.column(1).search( search, true, false ).draw();
-			});
+					$("#top-list span").removeClass("selected");
+					$(this).addClass("selected");	
+					
+					var search = $(this).text();
+					console.log(search);
+					//tables.column(1).search("");
+					//tables.column(2).search("");
+					tables.search("");
+					tables.column(1).search( search, true, false ).draw();
+				});
 			
 			$("span#all") //add function to All button
 				.click(function(){
@@ -187,7 +188,8 @@ $(document).ready(function() {
 				});
 			
 			
-			};
+			}; 
+			*/
 
 		} //end drawCallback
 	
